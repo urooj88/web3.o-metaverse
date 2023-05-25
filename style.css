@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section{
+    height: 100vh;
+    width: 100%;
+
+}
+section nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    box-shadow:0 0 10px rgba(0, 0, 0,0.5);
+    z-index: 1000;
+    box-shadow: rgba(255, 255, 255, 0.435);
+}
+section nav .logo img{
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    margin: 2px 0;
+}
+section nav ul{
+    list-style: none;
+}
+section nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+section nav ul li a{
+    text-decoration: none;
+    color: #e52a2a;
+    font-weight: 500;
+    font-size: 19px;
+    text-transform: uppercase;
+    transition: 02s;
+}
+section nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 5px;
+    background: #fac031;
+    display: block;
+    transition: 0.2s linear;
+}
+section nav ul li a:hover::after{
+    width: 100%;
+}
+section nav .icon i{
+    font-size: 30px;
+    color:#000;
+    margin: 0 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+section nav .icon i:hover{
+    color: #00d4ff;
+}
+section .main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 130px;
+}
+section .main .first-image img{
+    width: 1200px;
+    center: 90px;
+    position: relative;
+}
+
+section h1{
+    width: 550px;
+    text-align: justify;
+    position: relative;
+    left: 80px;
+    bottom: -190px;
+    line-height: 22px;
+}
+section p{
+    width: 550px;
+    text-align: justify;
+    position: relative;
+    left: 80px;
+    bottom: -190px;
+    line-height: 22px;
+}
+
+
+
+
+
+section nav ul{
+    list-style: none;
+}
+section nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+section nav ul li a{
+    text-decoration: none;
+    color: #e52a2a;
+    font-weight: 500;
+    font-size: 19px;
+    text-transform: uppercase;
+    transition: 02s;
+}
+section nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 5px;
+    background: #fac031;
+    display: block;
+    transition: 0.2s linear;
+}
+section nav ul li a:hover::after{
+    width: 100%;
+}
